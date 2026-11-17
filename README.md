@@ -6,12 +6,12 @@ Developer documentation for the **FAIR DID/Beacon ecosystem** — a decentralize
 
 ## What is FAIR?
 
-**FAIR** (Federated API for Integrity and Resilience) enables WordPress plugin developers to distribute their plugins independently using decentralized identifiers (DIDs). With FAIR, developers can:
+**FAIR** (Federated and Independent Repositories) enables developers to distribute their plugins independently using decentralized identifiers (DIDs). With FAIR, developers can:
 
 - **Issue DIDs** for their plugins using cryptographic keys
-- **Serve plugin metadata** through beacon endpoints
+- **Serve package metadata** through beacon endpoints
 - **Verify authenticity** with cryptographic proof that updates come from the original developer
-- **Distribute plugins** without relying on any single centralized platform
+- **Distribute packages** without relying on any single centralized platform
 
 ## Documentation
 
@@ -31,7 +31,7 @@ Developer documentation for the **FAIR DID/Beacon ecosystem** — a decentralize
 FAIR uses a **two-document architecture**:
 
 1. **DID Document (Trust Layer)** — Stored in the PLC directory, establishes cryptographic identity with public keys and service endpoints
-2. **Plugin Metadata (Information Layer)** — Served by beacons, provides current plugin information for discovery and installation
+2. **Package Metadata (Information Layer)** — Served by beacons, provides current plugin information for discovery and installation
 
 ### Ecosystem Components
 
